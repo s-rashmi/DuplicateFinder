@@ -16,19 +16,21 @@ Here, we provide a simple desktop application to extract the sets of duplicates 
 
 2) FASTA (*.fasta) or Tab delimited (*.txt)
    The sequences should be in fasta format as shown below
+   ```
    >716349
    ACGTAGCATCGATCG
    >837468
    TGATGCATGCATCGT
+   ```
 
 **Output Files created by the program:**
 The output files are created in the same directory and folder as the input file. Two output files are created:
 1) Duplicates sequences File: A file containing the sets of duplicates (Duplicates.csv). The columns in the file are:
-   a) Duplicate Set – the index of groups of duplicates;
-   b) Count – the index of a duplicate sequence in the set of duplicates it belongs to. So each series of numbers from 1 to n represents a set of sequence duplicates with a total of n duplicate sequences in that set;
-   c) Sequence – the duplicate sequences in ascending order (for easy visual checking).
-   d) Identifier – the number from the identifier column in the .csv file or the identifier number after '>' in the .fas and .txt files.
-   e) Remarks – remarks if any.
+     a) Duplicate Set – the index of groups of duplicates;
+     b) Count – the index of a duplicate sequence in the set of duplicates it belongs to. So each series of numbers from 1 to n represents a set of sequence duplicates with a total of n duplicate sequences in that set;
+     c) Sequence – the duplicate sequences in ascending order (for easy visual checking).
+     d) Identifier – the number from the identifier column in the .csv file or the identifier number after '>' in the .fas and .txt files.
+     e) Remarks – remarks if any.
 
 2) Unique sequences file: A file containing the unique sequences from the dataset in fasta format (Unique.fas). The file includes one representative from each set of duplicates.
 
