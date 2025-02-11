@@ -1,7 +1,9 @@
 # DuplicateFinder
-A java standalone application to find sequence duplicates in your dataset
-Protein (or Nucleotide) Sequences downloaded from NCBI Taxonomy Browser or other similar databases for an organism contain sequences which are duplicates of each other. Sometimes, these sequence duplicates turn out to be duplicate GenPept records, as found during our analyses, which need to be removed from the dataset to remove bias.
-Here, we provide a simple desktop application to extract the sets of duplicates from a dataset and also provide the list of unique sequences from the input dataset.
+A java standalone application to find sequence duplicates in your dataset. 
+
+<p>Protein (or Nucleotide) Sequences downloaded from NCBI Taxonomy Browser or other similar databases for an organism contain sequences which are duplicates of each other. Sometimes, these sequence duplicates turn out to be duplicate GenPept records, as found during our analyses, which need to be removed from the dataset to remove bias.
+
+Here, we provide a simple desktop application to extract the sets of duplicates from a dataset and also provide the list of unique sequences from the input dataset. NOTE: This only removes exact duplicates and not subsets
 
 **How to use the program:**
 1) Download the zip file DuplicateFinder.zip here. Extract contents to a desired location.
