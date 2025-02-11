@@ -15,12 +15,20 @@ Here, we provide a simple desktop application to extract the sets of duplicates 
    Sequence is the set of sequences to be analyzed.
 
 2) FASTA (*.fasta) or Tab delimited (*.txt)
-   The sequences should be in fasta format as shown below
+   The sequences should be in fasta format. Our example file test.fa is shown below
    ```
-   >716349
-   ACGTAGCATCGATCG
-   >837468
-   TGATGCATGCATCGT
+   >1
+   AAAAAAAAA
+   >2
+   AAAAAAAAG
+   >3
+   AAAAAAAAG
+   >4
+   AATAAAAAA
+   >5
+   AAAAAAAAA
+   >6
+   AATAAAAAA
    ```
 
 **Output Files created by the program:**
